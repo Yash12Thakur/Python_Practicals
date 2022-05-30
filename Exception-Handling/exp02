@@ -1,0 +1,6 @@
+try:
+    n=10
+    print(n)
+    raise ValueError
+except:
+    print('Exception Occurred')
