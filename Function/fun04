@@ -1,0 +1,10 @@
+def accept(num):
+    return num
+while(True):
+    m = input("Enter a string : ")
+    if(m>='A' and m<='Z'):
+        print("Please enter valid input..")
+    else:
+        break
+p = m.upper()
+print(accept(p))
