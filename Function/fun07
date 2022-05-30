@@ -1,0 +1,10 @@
+def compute_pay(hours,rate):
+    if hours < 40:
+        pay = hours * rate
+        print("The pay is :",pay)
+    else:
+        pay = 40 * rate + (hours-40)*1.5*rate
+        print("The pay is :",pay)
+m = int(input("Enter the hour.."))
+n = int(input("Enter rate.."))
+compute_pay(m,n)
