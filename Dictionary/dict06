@@ -1,0 +1,4 @@
+key = ['a','b','c','d','e']
+value = [1,2,3,4,9]
+dictionary = dict(zip(key,value))
+print(dictionary)
