@@ -1,0 +1,14 @@
+def count(s):
+    d = {"Upper Case":0,"Lower Case":0}
+    for c in s:
+        if c.isupper():
+            d["Upper Case"] += 1
+        elif c.islower():
+            d["Lower Case"] += 1
+        else:
+            pass
+    print("Original string:",d)
+    print("NO. of upper case : ",d["Upper Case"])
+    print("NO. of lower case : ",d["Lower Case"])
+s = input("Enter a string : ")
+count(s)
