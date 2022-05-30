@@ -1,0 +1,34 @@
+size = int(input("Enter the size of dict : "))
+a = {}
+sum = 0
+for i in range(0,size):
+    while(True):
+        key = int(input("Enter the key : "))
+        for j in range(1,key):
+            if(key%j==0):
+                sum = sum + j
+        if(key==sum):
+            print("Your input is correct")
+        else:
+            print("Please enter corrct value")
+            break
+    while(True):
+        value = int(input("Enter the value : "))
+        sumt = 0
+        temp = value
+        for k in range(1,value+1):
+            while(value>0):
+                rem = value % 10
+                fact = 1
+                while(rem%10):
+                    fact = fact * rem
+                    rem = rem - 1
+                sumt = sumt + fact
+                value = value // 10
+        if(temp == sum):
+            print("You entered correct value")
+        else:
+            print("Please enter corrct value")
+            break
+    a.update({key:value})
+print(a)
