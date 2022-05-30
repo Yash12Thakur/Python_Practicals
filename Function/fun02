@@ -1,0 +1,12 @@
+def count(v,c):
+    print(f'Total number of vowel = {v}')
+    print(f'Total number of consonant = {c}')
+m = input("Enter string..")
+p = 0
+q = 0
+for i in range(0,len(m)):
+    if m[i] in ('a','e','i','o','u'):
+        p = p + 1
+    else:
+        q = q + 1
+count(p,q)
