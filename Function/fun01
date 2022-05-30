@@ -1,0 +1,8 @@
+def details(m):
+    x = [1,2,3,4,5]
+    if m in x:
+        print(f'{m} Roll no. is present')
+    else:
+        print(f'{m} Roll no. is absent')
+roll = int(input("Enter the roll number : "))
+details(roll)
