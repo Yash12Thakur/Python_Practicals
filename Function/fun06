@@ -1,0 +1,6 @@
+def dist_from_zero(name):
+    if type(name)==int or type(name)==float:
+        return name
+    else:
+        return "Nope"
+print(dist_from_zero(56))
