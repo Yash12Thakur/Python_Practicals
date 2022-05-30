@@ -1,0 +1,11 @@
+size = int(input("Enter the size of dict : "))
+a = {}
+for i in range(0,size):
+    key = input("Enter the keys : ")
+    value = int(input("Enter the values : "))
+    a.update({key:value})
+b = {}
+for key,value in a.items():
+    if value not in b.values():
+        b[key] = value
+print(b)
