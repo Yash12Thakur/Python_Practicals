@@ -1,0 +1,11 @@
+a = {}
+size = int(input("Enter the size of dict : "))
+for i in range(0,size):
+    key = input("Enter the key of dict : ")
+    value = int(input("Enter the value of dict : "))
+    a.update({key:value})
+print(a)
+mul = 1
+for i in a:
+    mul = mul * a[i]
+print(mul)
