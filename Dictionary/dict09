@@ -1,0 +1,5 @@
+a = {'Yashu':100,'Rahul':150,'Rohit':200}
+a = max(a,key=a.keys)
+# b = max(a.values())
+# print(b)
+print(f'Student with highest marks is : {a}')
