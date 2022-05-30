@@ -1,0 +1,9 @@
+def str_rev(num):
+    rev = ''
+    index = len(num)
+    while index>0:
+        rev += num[index-1]
+        index = index - 1
+    return rev
+p = input("Enter a string : ")
+print(str_rev(p))
