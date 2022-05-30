@@ -1,0 +1,5 @@
+a = {}
+if not bool(a):
+    print("Dict is empty")
+else:
+    print("Dict is not empty")
